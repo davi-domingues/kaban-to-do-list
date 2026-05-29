@@ -34,7 +34,7 @@ export default function LoginForm() {
   return (
     <div className="auth-card">
       <h2>{mode === 'login' ? 'Entrar' : 'Criar conta'}</h2>
-      <p>Use email/senha ou OAuth corporativo.</p>
+      <p>Use email e senha para entrar.</p>
 
       <form onSubmit={handleSubmit} className="auth-form">
         <label>
